@@ -23,6 +23,7 @@
     "jsx": "preserve",
     "plugins": [{ "name": "next" }],
     "incremental": true,
+    "ignoreDeprecations": "6.0",
 
     /* Path Aliases */
     "baseUrl": ".",
@@ -32,6 +33,7 @@
   },
   "include": [
     "next-env.d.ts",
+    "src/css.d.ts",
     "**/*.ts",
     "**/*.tsx",
     "**/*.cjs",
